@@ -1,0 +1,602 @@
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+ main                    /*  MAIN CONTAINS THE WHOLE HEADER, FOOTER, SECTIONS, REST PAGES HEIGHT AND WIDTH */
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+main header             /* 1ST PAGE HEADER  WHERE DEFINE THE HEIGHT AND WIDTH OF HEADER */
+{
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main header .desktopbar     /* HEIGHT & WIDTH OF NAVBAR OF HEADER */
+{
+    height: 64px;
+    width: 30vw;
+}
+
+main header .desktopbar ul li       /* LIST OF HEADER NAVBAR */
+{
+    list-style-type: none;
+    height: 64px;       
+}
+
+main header .desktopbar ul
+{
+    display: flex;
+}
+
+main header .desktopbar ul .nil
+{
+    height: 64px;
+    width: 16px;
+    background-color: teal;
+}
+
+main header .desktopbar ul li a         /* ASSIGNING ANCHOR PROPERTIES TO LIST OF NAVBAR */
+{
+    
+    font-size: 1.5vw;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    height: 64px;
+    padding: 16px 0px;   
+    justify-content: end;
+    color: black;
+}
+
+main header .phonenavbar .desktopiconhide       /* IT IS FOR MOBILE VIEW */
+{
+    display: none;
+}
+
+main header .phonenavbar
+{
+    height: 64px;
+    
+}
+
+main header .phonenavbar #desktopicon       /* LOGO OF COLMAR ACADEMY IN HEADER */
+{   
+    margin-left: 24px;
+    padding: 16px 0px;
+    
+}
+
+main header h3                          /* LOGO NAME OF HEADER */
+{
+    position: absolute;
+    left: 50px;
+    top:16px;
+    font-size: 1.75vw;   
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+main header h3 span
+{
+    color: gray;
+    font-weight: 200;
+}
+
+section                                         /* HEIGHT & WIDTH OF SECTION PART OF 1st PAGE */
+{
+    height: calc(100% - 64px);
+    width: 100%;
+    background-color: rgb(214, 208, 208);
+    display: flex;
+}
+
+section .left               /* LEFT PART OF SECTION WHERE THERE IS A IMAGE -> LINE 118-120 */
+{
+    height: 100%;
+    width: 60%;
+    margin: 32px 24px;
+}
+
+section .left img
+{
+    height: calc(100% - 64px);
+    width: 100%;
+}
+
+
+
+section .right          /* RIGHT PART OF 1st PAGE WHERE THERE ARE SOME CONTENT -> LINE 134-165  */
+{
+    height: 100%;
+    width: calc(100% - 60%);
+}
+
+section .right .container
+{
+    height: 43vh;
+    width: 24.5vw ;
+    margin: 20vh 0vw;
+    background-color: rgb(214, 208, 208);
+}
+
+
+section .right .container h2
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: rgb(70, 68, 68);  
+}
+
+section .right .container h5
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 24px;
+    color: rgb(70, 68, 68);
+    line-height: 4vh;
+}
+
+section .right .container button
+{
+    width: 100%;
+    padding: 12px 8px;
+    background-color: rgb(94, 90, 90);
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 6vh;
+    height: 9vh;
+}
+
+
+/* --------------------------SECOND PAGE---------------------------- */
+
+.secondpage                         /* SECOND PAGE HEIGHT AND WIDTH */
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.secondpage .secondpageleft         /*SECOND PAGE LEFT SECTION WHERE THERE IS ONE IMAGE AND SOME CONTENT -> LINE 189-202*/
+{
+    height: 100%;
+    width: 60%;
+}
+
+.secondpage .secondpageleft img
+{
+    padding:32px 24px;
+    height: 70vh;
+    width: 100%;
+}
+
+.secondpage .secondpageleft h1
+{
+    padding: 0px 24px;
+    font-size: 3.4vw;
+    color: rgb(46, 44, 44);
+}
+
+.secondpage .secondpageleft p
+{
+    padding: 24px 24px;
+    font-size: 20px;
+    color: gray;
+}
+
+.secondpage .secondpageright                /* SECOND PAGE RIGHT SECTION WITH HEIGHT & WIDTH */
+{
+    height: 110vh;
+    width: 40%;
+    border-left: 1px solid ghostwhite;
+    position: relative;
+    
+} 
+
+.secondpage .secondpageright .container     /* SECOND PAGE CONTAINER WHERE IT CONTAINS 3 IMAGES IN COLMN FORMAT WITH SOME CONTENT -> LINE 228-333 */
+{
+    height: calc(100% - 64px);
+    width: 100%;
+    margin-top: 32px;
+}
+
+.secondpage .secondpageright .container .img1
+{
+    padding:0px 0px 16px 16px;
+    border-bottom: 0.5px solid ghostwhite;
+    display: flex;
+    
+}
+
+.secondpage .secondpageright .container .img2
+{
+    padding:16px 0px 16px 16px;
+    display: flex;
+   
+}
+
+.secondpage .secondpageright .container .img3
+{
+    padding:16px 0px 16px 16px;
+    background-color: gainsboro;
+    display: flex;
+}
+
+.secondpage .secondpageright .container .img1 h2
+{
+    margin-left: 20px;
+    padding-top: 7vh;
+    font-size: 1.8vw;
+    color: rgb(37, 35, 35);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.secondpage .secondpageright .container .img1 p
+{
+    margin-left: 22px;
+    color: gray;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+
+
+.secondpage .secondpageright .container .img1 div a
+{
+    margin-left: 25px;
+    font-size: 1.2vw;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 35px;
+    color: dodgerblue;
+
+}
+
+
+.secondpage .secondpageright .container .img2 div h2
+{
+    margin-left: 20px;
+    padding-top: 7vh;
+    font-size: 1.8vw;
+    color: rgb(37, 35, 35);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.secondpage .secondpageright .container .img2 p
+{
+    margin-left: 22px;
+    color: gray;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+
+
+.secondpage .secondpageright .container .img2 div a
+{
+    margin-left: 25px;
+    font-size: 1.2vw;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 35px;
+    color: dodgerblue;
+
+}
+
+
+.secondpage .secondpageright .container .img3 h2
+{
+    margin-left: 20px;
+    padding-top: 7vh;
+    font-size: 1.8vw;
+    color: rgb(37, 35, 35);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.secondpage .secondpageright .container .img3 p
+{
+    margin-left: 22px;
+    color: gray;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+
+
+.secondpage .secondpageright .container .img3 div a
+{
+    margin-left: 25px;
+    font-size: 1.2vw;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 35px;
+    color: dodgerblue;
+
+}
+
+
+/* ---------------------------PAGE-3------------------------ */
+
+
+.page3                      /* 3rd PAGE WITH HEIGHT & WIDTH */
+{
+    height: 130%;
+    width: 100%;
+    background-color: rgb(224, 221, 221);
+    margin-top: 80px;
+}
+
+
+.page3 h1               /* 3rd PAGE HEADER */
+{
+    padding: 32px 0vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 69, 69);
+}
+
+
+.page3 .container .container1       /* 3rd PAGE CONTAINER WHERE IT CONTAIN 6 CARDS */
+{
+    height: 20%;
+    width: calc(100% - 144px);
+    margin: 0px 72px 32px 72px;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+     
+}
+
+
+.page3 .container .container2
+{
+     height: 30%;
+     width: calc(100% - 144px);
+     margin: 0px 72px 32px 72px;
+     display: flex;
+     justify-content: center;
+     gap: 5vw;
+
+}
+
+
+.page3 .container .card             /* FORMAT OF CARD WITH IMG AND CONTNT -> LINE 400-408 */
+{
+    height: 50%;
+    width: 25%;
+    background-color: white;
+}
+
+.page3 .container .card img
+{
+    height: 50%;
+    width: 100%;
+}
+
+.page3 .container .card h4
+{
+    font-size: 1.5vw;
+    color: rgb(43, 40, 40);
+    margin:16px 0px 0px 15px;
+}
+
+.page3 .container .card h5,p
+{
+    margin: 8px 0px 8px 15px;
+    font-size:1.3vw ;
+    color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.page3 .container #card1            /* EACH CARD HEIGHT & MARGIN -> LINE 429-458 */
+{
+    height: 48vh;
+    margin: 0px 16px 32px 0px;
+    
+}
+
+
+.page3 .container #card2
+{
+    height: 48vh;
+    margin: 0px 16px 32px 0px;
+    
+}
+
+
+.page3 .container #card3
+{
+    height: 48vh;
+    margin: 0px 16px 32px 0px;
+    
+}
+
+
+.page3 .container #card4
+{
+    height: 48vh;
+    margin: 0px 16px 32px 0px;
+    
+}
+
+
+.page3 .container #card5
+{
+    height: 48vh;
+    margin: 0px 16px 32px 0px;
+    
+}
+
+.page3 .container #card6
+{
+    height: 48vh;
+    margin: 0px 16px 32px 0px;
+}
+
+.phoneview
+{
+    display: none;
+}
+
+
+/* ----------------------PAGE 4-------------------------------------- */
+
+
+.page4                      /* 4th PAGE HEIGHT & WIDHT */
+{
+    height: 125%;
+    width: 100%;
+    background-color: white;
+}
+
+.page4 .header h2           /* 4th PAGE HEADER */
+{
+    
+    padding: 32px 0px;
+    text-align: center;
+    font-size: 3vw;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(30, 28, 28);
+   
+}
+
+.page4 .container       /* 4th PAGE CONTAINER  */
+{
+    display: flex;
+}
+
+.page4 .container .leftsection          /* 4th PAGE LEFTSECTION WHERE THERE IS ONE VIDEO -> LINE 508-521 */
+{
+    height: 70vh;
+    width: 55%;
+    margin: 0px 24px 24px 24px;
+}
+
+.page4 .container .leftsection video
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin-top: -7px;
+}
+
+
+.page4 .container .rightsection         /* 4th PAGE RIGTH SECTION WHERE IT CONTAINS 2 IMAGES WITH SOME CONTNT IN COLMN FORMAT -> LINE 524-579*/
+{
+    height: 70vh;
+    width: 41%;
+    padding: 0px 20px 24px 24px;
+}
+
+.page4 .container .rightsection .topimg
+{
+    height: 50%;
+    width: calc(100% + 20px);
+    background-color:rgb(197, 192, 192);
+    display: flex;   
+}
+
+.page4 .container .rightsection .topimg img
+{
+    height: 100%;
+    width: 35%;
+    padding: 16px;  
+}
+
+#rightp
+{
+   
+   margin-left: 0px;
+}
+
+.page4 .container .rightsection .bottomimg
+{
+    width: calc(100% + 20px);
+    padding: 16px;
+    display: flex;
+}
+
+.page4 .container .rightsection .bottomimg img
+{
+    height: 100%;
+    width: 31%;
+   
+}
+
+.page4 .container .rightsection .bottomimg .textt2
+{
+    font-size: 2vw;
+    width: 100%;
+    padding-top: 8vh;
+    font-weight: 200;
+}
+
+.page4 .container .rightsection .bottomimg .textt2 h3
+{
+    padding-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6vw;
+}
+
+
+footer   /* FOOTER OF WHOLE SITE */
+{
+    height: 10vh;
+    width: 100%;
+    margin-top: 20vh;
+    background-color: white;
+    border-top: 1px solid gainsboro;
+    
+}
+
+footer .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p    /* FOOTER LEFT SIDE  */
+{
+   
+    padding-top: 16px;
+    padding-left: 24px;
+    font-size: 1vw;
+}
+
+footer .container ul{           /* FOOTER RIGHT SIDE */
+    list-style-type: none;
+    display: flex;
+    font-size: 1vw;
+    gap: 2vw;
+    padding-top: 16px;
+    padding-right: 15px;
+
+}
+
+footer .container ul li
+{
+    padding-top:8px ;
+    color: gray;
+}
+
+
+
