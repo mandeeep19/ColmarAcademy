@@ -1,0 +1,390 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+
+@media (max-width:600px) {
+
+
+    /* -----------------------PAGE 1----------------------------- */
+
+    main header         /* PHONE HEADER HEIGHT & WIDTH */
+    {
+        height: 64px;
+        width: 100%;
+    }
+
+    main header .phonenavbar .desktopiconhide       /* BLOCK PROPERTY OF DISPLAY HAS BEEN  USED TO SEE THE HEADER OF PHONE */
+    {
+        display: block;
+    }
+
+    main header h3, .desktopbar    /* LIST OF DESKTOP HAS BEEN HIDED */
+    {
+        display: none;
+    }
+
+    main header .phonenavbar img        /* ICON OF HEADER OF 1st PAGE */
+    {
+        font-weight: 100;
+        padding: 16px 16px;
+
+    }
+
+    main header .phonenavbar #desktopicon
+    {
+        width: 64px;
+        margin-left: 16px;
+    }
+
+    main header .phonenavbar #phoneheaderlasticon
+    {
+        margin-right: 23px;
+    }
+
+
+
+    main header .phonenavbar        /* IT HELPS TO ALIGN ICONS IN HEADER PART HORZINTALLY */
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    main section            /* HEIGHT & WIDTH OF SECTION PART OF 1st PAGE */
+    {
+        height: calc(100% - 64px);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section .left          /* HEIGHT & WIDTH  OF CONTAINER OF IMG */
+    {
+        height: 38%;
+        width: 100%;
+        margin: 0px;
+    }
+
+    main section .left img      /* HEIGHT & WIDTH OF IMG */
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    main section .right             /* HEIGHT & WIDTH OF TEXT PART */
+    {
+        height: 55%;
+        width: 100%;
+        /* background-color: yellow; */
+    }
+
+    main section .right .container
+    {
+        height: 45%;
+        width: calc(100% - 32px);
+        margin: 32px 16px;
+    }
+
+    main section .right .container h2
+    {
+        height: 70%;
+        width: 100%;
+    }
+
+
+    main section .right .container h5
+    {
+        width: 100%;
+        height: 50%;
+        font-size: 6vw;
+        font-weight: 400;
+    }
+
+
+
+
+    /* -------------------------------PAGE 2---------------------------- */
+
+
+    .secondpage         /* HEIGHT & WIDTH OF SECOND PAGE  WITH DISPLAY PROPERTY */
+    {
+        height: 150%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondpage .secondpageleft         /* SECOND PAGE LEFT PART HIDE */
+    {
+        display: none;
+    }
+
+    .secondpage .secondpageright        /* SECOND PAGE RIGHT SIDE TAKES FULL WIDTH OF PHONE VIEW AND HERE DEFINES THE HEIGHT & WIDTH */
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    .secondpage .secondpageright .container .img1  /* HEIGHT & WIDHT OF CONTAINER  OF IMAGES IN 2nd PAGE */
+    {
+        width: 100%;
+        height: 34%;
+        display: block;
+       
+    }
+
+    .secondpage .secondpageright .container .img2
+    {
+        width: 100%;
+        height: 34%;
+        display: block;
+        padding-top: 64px;
+       
+    }
+
+    .secondpage .secondpageright .container .img3
+    {
+        width: 100%;
+        height: 34%;
+        display: block;
+        background-color: white;
+        padding-top: 64px;
+       
+       
+    }
+
+    .secondpage .secondpageright .container .img1 img  /* HEIGHT & WIDTH OF IMG */ 
+    {
+        height: 80%;
+        width: 100%;
+        padding: 0px 16px 16px 0px;
+    } 
+
+    .secondpage .secondpageright .container .img2 img
+    {
+        height: 80%;
+        width: 100%;
+        padding: 0px 16px 16px 0px;
+    } 
+
+    .secondpage .secondpageright .container .img3 img
+    {
+        height: 80%;
+        width: 100%;
+        padding: 0px 16px 16px 0px;
+        /* background-color: white; */
+    } 
+
+    .secondpage .secondpageright .container .img1 div h2  /* TEXT PART'S FORMAT UNDER IMAGE */
+    {
+        padding: 0px;
+        font-size: 5.5vw;
+        font-weight: 700;
+    }
+
+    .secondpage .secondpageright .container .img1 div p
+    {
+        padding: 0px;
+        font-size: 4.5vw;
+        font-weight: 100;
+    }
+
+    .secondpage .secondpageright .container .img1 div a
+    {
+        padding: 0px;
+        font-size: 4.5vw;
+        font-weight: 400;
+        color: dodgerblue;
+       
+    }
+
+    .secondpage .secondpageright .container .img2 div h2
+    {
+        padding: 0px;
+        font-size: 5.5vw;
+        font-weight: 700;
+    }
+
+    .secondpage .secondpageright .container .img2 div p
+    {
+        padding: 0px;
+        font-size: 4.5vw;
+        font-weight: 100;
+    }
+
+    .secondpage .secondpageright .container .img2 div a
+    {
+        padding: 0px;
+        font-size: 4.5vw;
+        font-weight: 400;
+        color: dodgerblue;
+       
+    }
+
+    .secondpage .secondpageright .container .img3 div h2
+    {
+        padding: 0px;
+        font-size: 5.5vw;
+        font-weight: 700;
+
+    }
+
+    .secondpage .secondpageright .container .img3 div p
+    {
+        padding: 0px;
+        font-size: 4.5vw;
+        font-weight: 100;
+        padding-right: 16px;
+    }
+
+    .secondpage .secondpageright .container .img3 div a
+    {
+        padding: 0px;
+        font-size: 4.5vw;
+        font-weight: 400;
+        padding-bottom: 32px;
+        color: dodgerblue;    
+       
+    }
+
+
+    /* ----------------------------PAGE 3----------------------------------- */
+    
+
+    .page3                  /* 3rd PAGE HEIGHT & WIDTH */
+    {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+    }
+
+    .page3 h1           /* HEADER OF 3rd PAGE */
+    {
+        border-top: 1px solid gainsboro;
+        padding-top: 32px;
+    }
+
+    .page3 .container .container1
+    {
+        position: relative;
+        
+    }
+
+    .page3 .container .container1 .card, .page3 .container .container2 .card   /* CARDS HIDE */
+    {
+        display: none;
+    }
+
+    .page3 .container .container1 .card img, .page3 .container .container1 .card h5, .page3 .container .container1 .card p, h4
+    {
+        display: none;          /* CONTENT OF CARDS HIDE  OF 1st CONTAINER */
+    }
+
+    
+    .page3 .container .container2 .card img, .page3 .container .container2 .card h5, .page3 .container .container2 .card p,h4
+    {
+        display: none;            /* CONTENT OF CARDS HIDE  OF 2nd CONTAINER */
+    
+    }
+
+    .page3 .container .phoneview        /* FORMAT THE CARDS HEADING IN BUTTON FORMAT */
+    {
+        position: relative;
+        display: block;
+        bottom: 70px;
+        margin: 16px;
+        
+        
+    }
+
+    .phoneview .phonecard1,.phonecard2,.phonecard3,.phonecard4,.phonecard5,.phonecard6  /* FORMAT OF EACH BUTTON */
+    {
+        padding: 30px 0px 30px 0px;
+        border: 1px solid gainsboro;
+        margin-top: 18px;
+        background-color: rgb(196, 196, 195);
+        padding-left: 16px;
+        height: 25%;
+        font-weight: 700;
+        color: rgb(36, 36, 36);
+        
+        
+    }
+
+    /* ----------------------------PAGE 4------------------------------ */
+
+    .page4          /* 4th PAGE HEIGHT & WIDTH */
+    {
+        display: block;
+        height: 40%;
+        width: 100%;
+        border-top: 1px solid gainsboro;
+    }
+
+    .page4 .header      /* HEIGHT & WIDHT OF HEADER OF 4th PAGE */
+    {
+        height: 64px;
+        width: 100%;
+        margin: 32px 0px 16px 0px;
+    }
+
+    .page4 .header h2       /* HEADER OF 4th PAGE */
+    {
+        font-size: 10vw;
+        font-weight: 800;
+        padding: 5px 0px 16px 0px;
+    }
+
+    .page4 .container       /* CONTAINER OF PAGE4 SECTION */
+    {
+        height: calc(100% - 64px);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page4 .container .leftsection  /* LEFT SECTION OF 4th PAGE */
+
+    {
+        height: 200%;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .page4 .container .leftsection h4, .page4 .container .leftsection p  /* TEXT PART HIDE OF LEFT PART */
+    {
+        display: none;
+    }
+
+    .page4 .container .leftsection .vdo     /* VIEO OF LEFT PART */
+    {
+        padding-top: 20px;
+        height:100%;
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 32px;  
+    }
+
+    .page4 .container .rightsection, footer .container ul   /* LIST HIDE OF FOOTER */
+    {
+        display: none;
+    }
+
+    footer .container p         /* PARAGRAPH OF FOOTER */
+    {
+        font-size: 4vw;
+        padding: 16px 0px;
+    }
+
+}
